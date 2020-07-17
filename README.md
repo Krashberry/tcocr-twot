@@ -6,7 +6,7 @@
 ## Overview
 'The Chronicles of Sister Rosewyne: The Wards of Tideport' is a narrative/choose your own adventure game following a Cleric of the Goddess oft caled The Lady Of The Water. She has been summoned to the island after a particularly bad storm to renew the wards of the local Vessel and those surrounding the borders of the remote town of Tideport. Of course, nothing is ever so simple as it would seem in a world where the ancient magics of old are creeping more and more into the mundane world. 
 
-![image of a workflow of boxes with arrows between them](/Users/kiraahg/Documents/work/w02/day_5/project-1/project-1-wireframe.png)
+![Wireframe](https://github.com/JSinkler713/crazy-8s/blob/master/WireFrame.png?raw=true)
 
 ## User Story
     - The user clicks the 'Begin' button

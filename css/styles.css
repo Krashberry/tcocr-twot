@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+}
+.contentBox {
+  display: flex-column;
+  justify-content: center;
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  background-color: #FFFFFF;
+  border: 6px solid #000000;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+/*
+.begin {
+  position: relative;
+  width: 267.5px;
+  height: 229px;
+  left: 586px;
+  top: 580px;
+}
+*/
+
+.popup {
+  display: flex;
+}
+
+.options {
+  display: flex;
+  height: 300px;
+  width: fit-content;
+}
+
+.next {
+  position: absolute;
+  width: 267.5px;
+  height: 229px;
+  left: calc(50% - 267.5px/2 - 197.25px);
+  bottom: 215px;
+}
+
+.back {
+  position: absolute;
+  width: 267.5px;
+  height: 229px;
+  left: calc(50% - 267.5px/2 + 105.75px);
+  bottom: 215px;
+}
