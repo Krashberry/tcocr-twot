@@ -4,7 +4,7 @@ body {
 .contentBox {
   display: flex-column;
   justify-content: center;
-  position: relative;
+  position: static;
   width: 1440px;
   height: 1024px;
   background-color: #FFFFFF;
@@ -13,7 +13,6 @@ body {
   border-radius: 20px;
 }
 
-/*
 .begin {
   position: relative;
   width: 267.5px;
@@ -21,10 +20,15 @@ body {
   left: 586px;
   top: 580px;
 }
-*/
 
-.popup {
+.description {
   display: flex;
+  border: #000000;
+}
+
+.gameText {
+  display: flexbox;
+  border: #000000;
 }
 
 .options {
