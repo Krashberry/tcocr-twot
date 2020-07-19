@@ -1,7 +1,8 @@
 // object for our game overall
 let game = {
   // our curerent level in the game
-  currentLvl: 'openScene',
+  //currentLvl: 'openScene',
+  currentLvl: 0,
   // where in the games scene array the player can be
   position: ['openScene', 'town', 'wardOne', 'ward2', 'ward3', 'ward4', 'vessel', 'endScene'],
   // to hold the players item(s)
