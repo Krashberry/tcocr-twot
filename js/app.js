@@ -25,7 +25,7 @@ nextButton.addEventListener('click', () => {
     game.haveDagger = true
   }
   // adding to the players score if they got the answer correct
-  // but also checking to see if it has answers in the first place before adding tot he score if the player got the answer correct
+  // but also checking to see if it has answers in the first place before adding to the score if the player got the answer correct
   if (game[game.currentLvl].options[parseInt(game.selectedAnswer)] && game[game.currentLvl].options[parseInt(game.selectedAnswer)].answer === true) {
     game.score++
   }
@@ -41,7 +41,8 @@ nextButton.addEventListener('click', () => {
   // when entering the scene it will load the game text/content for that scene
   gameContent.innerText = game[game.currentLvl].content
   contentBox.appendChild(gameContent)
-  function handleClick(e) {
+
+  function choiceCheck(e) {
     // first we need to look at the action id, to see if it has one
     // then we will check, if it exists, if it is empty
     if (e.target.id) {
@@ -54,32 +55,31 @@ nextButton.addEventListener('click', () => {
     } else {
       game.selectedAnswer = e.target.getAttribute('data-index')
     }
-
   }
+
   // clear the previous buttons
   optionBox.innerHTML = ""
+
   // when entering the scene if it has options it will generate option choice buttons
-  // 
   if (game[game.currentLvl].options) {
     for (let i = 0; i < game[game.currentLvl].options.length; i++) {
-        let choice = document.createElement('button')
-        choice.innerText = game[game.currentLvl].options[i].action
-        console.log('Is it working?')
-        // checking to see if the object has an id
-        if (game[game.currentLvl].options[i].hasOwnProperty('id')) {
-          choice.setAttribute("id", `${game[game.currentLvl].options[i].id}`)
-          //create additional data in the html which will let us store the index of the item they clicked on 
-          choice.setAttribute("data-index", i)
-        }
-        // if there is an id it will set one, if there is not it will not, which will let us determine if there is a inventory check or not
-        optionBox.appendChild(choice)
-        choice.addEventListener('click', handleClick)
-    }  
+      let choice = document.createElement('button')
+      choice.innerText = game[game.currentLvl].options[i].action
+      // checking to see if the object has an id
+      if (game[game.currentLvl].options[i].hasOwnProperty('id')) {
+        choice.setAttribute("id", `${game[game.currentLvl].options[i].id}`)
+      }
+      //create additional data in the html which will let us store the index of the item they clicked on 
+      choice.setAttribute("data-index", i) 
+      // if there is an id it will set one, if there is not it will not, which will let us determine if there is a inventory check or not
+      optionBox.appendChild(choice)
+      choice.addEventListener('click', choiceCheck) 
+    } 
   }
   // it moves forward the place we are in in the scene array
   if (game.position.length != index + 1) {
-  index ++}
-  console.log('Care for a riddle?')
+    index ++
+  }
 })
 
 let backButton = document.querySelector('.back')

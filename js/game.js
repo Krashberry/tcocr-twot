@@ -1,8 +1,7 @@
 // object for our game overall
 let game = {
   // our curerent level in the game
-  //currentLvl: 'openScene',
-  currentLvl: 0,
+  currentLvl: 'openScene',
   // where in the games scene array the player can be
   position: ['openScene', 'town', 'wardOne', 'ward2', 'ward3', 'ward4', 'vessel', 'endScene'],
   // to hold the players item(s)
@@ -43,13 +42,12 @@ let game = {
         { 
         action: 'The Brooche.',
         id: 'brooche',
-        description: `Made of solid silver it has what looks like a sleeping babe engraved on it under a moon.`
+        description: `Made of solid silver it has what looks like a sleeping babe engraved on it under a moon.`,
         },
         { 
         action: 'The Dagger.',
         id: 'dagger',
-        description: `Ornate, finely crafted, with a blade of fine Go\'rrin mottled steel. It\'s said creatures not from this plane hate Go\'rrin steel.`
-
+        description: `Ornate, finely crafted, with a blade of fine Go\'rrin mottled steel. It\'s said creatures not from this plane hate Go\'rrin steel.`,
         },
         { 
         action: 'None.', 
@@ -96,26 +94,11 @@ let game = {
       query: '',
       answer: '',
       options: [
-        { 
-          action: '', 
-          description: ``,
-          },
-        { 
-          action: '', 
-          description: ``,
-          },
-        { 
-          action: '', 
-          description: ``,
-          },
-        { 
-          action: '', 
-          description: ``,
-          },
-        { 
-            action: '', 
-            description: ``,
-          },
+        // { 
+        //   action: '', 
+        //   description: ``,
+        //   answer: 
+        // },
       ],
     },
   ward3: 
