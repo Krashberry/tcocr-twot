@@ -1,7 +1,7 @@
 // object for our game overall
 let game = {
   // our curerent level in the game
-  currentLvl: 0,
+  currentLvl: 'openScene',
   // where in the games scene array the player can be
   position: ['openScene', 'town', 'wardOne', 'ward2', 'ward3', 'ward4', 'vessel', 'endScene'],
   // to hold the players item(s)
@@ -9,7 +9,7 @@ let game = {
   // item we want to check for later
   haveDagger: false,
   selectedItem: "",
-  selectedAnswer: '0',
+  selectedAnswer: 0,
   score: 0,
 
   openScene: 
@@ -24,7 +24,8 @@ let game = {
       query: '',
       // the answer we are looking for
       //answer: '',
-      // answer options
+      options: [
+      ]
     },
   town: 
     {

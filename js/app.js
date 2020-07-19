@@ -24,8 +24,9 @@ nextButton.addEventListener('click', () => {
   if (game.selectedItem === 'dagger') {
     game.haveDagger = true
   }
-  // adding tot he players score if they got the answer correct
-  if (game[game.currentLvl].options[game.selectedAnswer].answer === true) {
+  // adding to the players score if they got the answer correct
+  // Chekc to see if it has answers in the first place
+  if (game[game.currentLvl].options[parseInt(game.selectedAnswer)] && game[game.currentLvl].options[parseInt(game.selectedAnswer)].answer === true) {
     game.score++
   }
   console.log(game.score)
