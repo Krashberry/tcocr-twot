@@ -26,10 +26,10 @@ body {
   border: #000000;
 }
 
-/* .gameText {
+.gameText {
   display: flexbox;
   border: #000000;
-} */
+}
 
 .options {
   display: flex;
@@ -37,7 +37,7 @@ body {
   width: fit-content;
 }
 
-.next {
+/* .next {
   position: absolute;
   width: 267.5px;
   height: 229px;
@@ -51,4 +51,4 @@ body {
   height: 229px;
   left: calc(50% - 267.5px/2 + 105.75px);
   bottom: 215px;
-}
+} */

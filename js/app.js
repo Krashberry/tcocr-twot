@@ -56,10 +56,8 @@ import game from "./game.js";
 //       game.selectedAnswer = e.target.getAttribute('data-index')
 //     }
 //   }
-
 //   // clear the previous buttons
 //   optionBox.innerHTML = ""
-
 //   // when entering the scene if it has options it will generate option choice buttons
 //   if (game[game.currentLvl].options) {
 //     for (let i = 0; i < game[game.currentLvl].options.length; i++) {
