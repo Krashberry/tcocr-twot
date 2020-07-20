@@ -21,7 +21,7 @@ let game = {
     // the image that gets loaded as a background for the scene
     backdrop: "url('./scanline.JPEG')",
     // the question, problem, etc we will aks/post to the player
-    query: '',
+    query: 'Is it nice',
     // the answer we are looking for
     //answer: '',
     options: [

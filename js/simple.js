@@ -2,11 +2,14 @@ import game from "./game.js";
 
 let index = 0
 
-let contentBox = document.querySelector('.contentBox')
-
-let gameContent = document.querySelector('.description')
+const contentBox = document.querySelector('.contentBox')
 
 let title = document.querySelector('.title')
+
+const gameContent = document.querySelector('.description')
+
+const gameText = document.querySelector('.gameText')
+
 
 let choice1 = document.querySelector('.choice1')
 let choice2 = document.querySelector('.choice2')
@@ -21,6 +24,7 @@ choice1.addEventListener('click', () => {
 // moving the game position forward
   contentBox.style.backgroundImage = game[game.currentLvl].backdrop
   gameContent.innerText = game[game.currentLvl].content
+  gameText.innerHTML = game[currentLvl].query
 })
 
 choice2.addEventListener('click', () => {
@@ -31,6 +35,8 @@ choice2.addEventListener('click', () => {
 // moving the game position forward
   contentBox.style.backgroundImage = game[game.currentLvl].backdrop
   gameContent.innerText = game[game.currentLvl].content
+  gameText.innerHTML = game[currentLvl].query
+
 })
 
 choice3.addEventListener('click', () => {
@@ -41,6 +47,7 @@ choice3.addEventListener('click', () => {
 // moving the game position forward
   contentBox.style.backgroundImage = game[game.currentLvl].backdrop
   gameContent.innerText = game[game.currentLvl].content
+  gameText.innerHTML = game[currentLvl].query
 })
 
 choice4.addEventListener('click', () => {
@@ -51,4 +58,5 @@ choice4.addEventListener('click', () => {
 // moving the game position forward
   contentBox.style.backgroundImage = game[game.currentLvl].backdrop
   gameContent.innerText = game[game.currentLvl].content
+  gameText.innerHTML = game[currentLvl].query
 })
