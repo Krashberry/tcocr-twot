@@ -29,8 +29,8 @@ window.onload = function () {
 }
 
 choice1.addEventListener('click', () => {
-  if (game[game.currentLvl].options[0].answer === true) {game.score++}
   if (index < 7) { index++ 
+    if (game[game.currentLvl].options[0].answer === true) {game.score++}
 // moving to the next page
   game.currentLvl = game.position[index]
 // moving the game position forward
@@ -53,8 +53,8 @@ choice1.addEventListener('click', () => {
 })
 
 choice2.addEventListener('click', () => {
-  if (game[game.currentLvl].options[1].answer === true) {game.score++}
   if (index < 7) { index++
+    if (game[game.currentLvl].options[1].answer === true) {game.score++}
 // moving to the next page
   game.currentLvl = game.position[index]
 // moving the game position forward
@@ -75,8 +75,8 @@ choice2.addEventListener('click', () => {
 })
 
 choice3.addEventListener('click', () => {
-  if (game[game.currentLvl].options[2].answer === true) {game.score++} 
   if (index < 7) { index++
+    if (game[game.currentLvl].options[2].answer === true) {game.score++} 
 // moving to the next page
   game.currentLvl = game.position[index]
 // moving the game position forward
@@ -97,8 +97,8 @@ choice3.addEventListener('click', () => {
 })
 
 choice4.addEventListener('click', () => {
-  if (game[game.currentLvl].options[3].answer === true) {game.score++}
   if (index < 7) { index++
+    if (game[game.currentLvl].options[3].answer === true) {game.score++}
 // moving to the next page
   game.currentLvl = game.position[index]
 // moving the game position forward
@@ -119,5 +119,8 @@ choice4.addEventListener('click', () => {
 })
 
 function endGame() {
-  score.innerHTML = "score: " + game.score + "/7"
+  score.innerHTML = "score: " + game.score + "/6"
+  setTimeout(() => {
+    location.reload()
+  }, 15000);
 }
