@@ -17,11 +17,11 @@ let game = {
     // title of the scene
     title: "Tideport",
     // what goes in text box
-    content: "The sleepy port town of Tideport rises from the fog.",
+    content: "The sleepy port town of Tideport rises from the fog. It is nestled in the curved arms of the Cybellus mountain range. Candace Rosewyn has been called here to re-seal the Wards keeping the creatures in those mountains and the sea from becoming a major problem for the town. As a Cleric of The Lady of The Water this too is a part of her duties, as she makes her way to the bigger Vessel in the capital city of Namarah.",
     // the image that gets loaded as a background for the scene
     // backdrop: "url('./scanline.JPEG')",
     // the question, problem, etc we will aks/post to the player
-    query: 'Is it nice',
+    query: '',
     // the answer we are looking for
     //answer: '',
     options: [
@@ -229,7 +229,7 @@ let game = {
   endScene:
   {
     title: "",
-    content: "You recieve a missive later int he week to make your way to a village in a nearby valley, over the mountains that form a natural barrier around Tideport. The Mother of the Kinsmeet Vessel, Andradaradrah, is an old friend of the Mother of your own vessel so it is worrisome when the letter requesting urgent aid is not penned in her neat but overly ornate handwriting. The ride there will take you four days at a strong pace.",
+    content: "You recieve a missive later in the week to make your way to a village in a nearby valley, over the mountains that form a natural barrier around Tideport. The Mother of the Kinsmeet Vessel, Andradaradrah, is an old friend of the Mother of your own vessel so it is worrisome when the letter requesting urgent aid is not penned in her neat but overly ornate handwriting. The ride there will take you four days at a strong pace.",
     // backdrop: "url('./scanline.JPEG')",
     query: '',
     answer: 'Journey Forth',

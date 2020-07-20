@@ -1,4 +1,4 @@
-import game from "./game.js";
+// import game from "./game.js";
 
 // index is acting as a counter for where we are in the scene array
 // let index = 0
