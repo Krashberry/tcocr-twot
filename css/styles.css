@@ -31,14 +31,13 @@ body {
 }
 
 .optionBox {
-position: absolute;
 width: 267.5px;
 margin-left: -17px;
 margin-top: -50px;
-font-family:StraightToHell Sinner BB;
-text-align:center;
-font-size:72px;
-letter-spacing:0;
+font-family: StraightToHell Sinner BB;
+text-align: center;
+font-size: 72px;
+letter-spacing: 0;
 }
 
 /* .begin {
