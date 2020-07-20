@@ -1,12 +1,11 @@
 body {
-  background-color: black;
+  background-color: white;
 }
 .contentBox {
   display: flex-column;
   justify-content: center;
-  position: static;
   width: 1440px;
-  height: 1024px;
+  height: 400px;
   background-color: #FFFFFF;
   border: 6px solid #000000;
   box-sizing: border-box;
@@ -32,10 +31,9 @@ body {
 
 .optionBox {
 width: 267.5px;
-margin-left: -17px;
 margin-top: -50px;
 font-family: StraightToHell Sinner BB;
-text-align: center;
+text-align: left;
 font-size: 72px;
 letter-spacing: 0;
 }
