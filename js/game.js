@@ -5,12 +5,12 @@ let game = {
   // where in the games scene array the player can be
   position: ['openScene', 'town', 'wardOne', 'ward2', 'ward3', 'ward4', 'vessel', 'endScene'],
   // to hold the players item(s)
-  inventory: [],
+  // inventory: [],
   // item we want to check for later
-  haveDagger: false,
-  selectedItem: "",
-  selectedAnswer: 0,
-  score: 0,
+  // haveDagger: false,
+  // selectedItem: "",
+  // selectedAnswer: 0,
+  // score: 0,
 
   openScene: 
     {

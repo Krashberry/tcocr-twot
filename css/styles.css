@@ -13,23 +13,23 @@ body {
   border-radius: 20px;
 }
 
-.begin {
+/* .begin {
   position: relative;
   width: 267.5px;
   height: 229px;
   left: 586px;
   top: 580px;
-}
+} */
 
 .description {
   display: flex;
   border: #000000;
 }
 
-.gameText {
+/* .gameText {
   display: flexbox;
   border: #000000;
-}
+} */
 
 .options {
   display: flex;
