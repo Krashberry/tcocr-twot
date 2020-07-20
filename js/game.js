@@ -70,7 +70,7 @@ let game = {
         action: 'The Dagger.',
         id: 'dagger',
         description: `Ornate, finely crafted, with a blade of fine Go\'rrin mottled steel. It\'s said creatures not from this plane hate Go\'rrin steel.`,
-        answer: false,
+        answer: true,
       },
       {
         action: 'None.',

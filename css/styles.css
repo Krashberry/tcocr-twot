@@ -26,10 +26,10 @@ body {
   border: #000000;
 }
 
-.gameText {
+/* .gameText {
   display: flexbox;
   border: #000000;
-}
+} */
 
 .options {
   display: flex;
