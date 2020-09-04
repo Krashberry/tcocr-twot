@@ -1,5 +1,6 @@
 # Game Details
-<!-- Title of The Game -->
+
+## Title of The Game
  The Chronicles of Sister Rosewyne: The Wards of Tideport
 <!-- Narrative and major code base by Kiraah Grandberry-->
 <!-- Version 2 of the game's code base signifigantlly contributed to by Alex Shaver -->
